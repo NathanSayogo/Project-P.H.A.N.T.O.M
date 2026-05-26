@@ -19,3 +19,4 @@ always_comb begin
         4'b0011: result = {31'b0, A < B}; // Set Less Than (Unsigned) (SLTU)
     endcase
 end
+endmodule
