@@ -1,8 +1,8 @@
 module Regfile(
-	input clk, RegWen,
-  	input [4:0] AddrD, AddrA, AddrB,
-  	input [31:0] DataD,
-  	output [31:0] DataA, DataB
+	input logic clk, RegWen,
+  	input logic [4:0] AddrD, AddrA, AddrB,
+  	input logic [31:0] DataD,
+  	output logic [31:0] DataA, DataB
 );
   logic [31:0] registers [31:0];
   assign DataA = registers[AddrA];
@@ -12,6 +12,9 @@ module Regfile(
       registers[AddrD] <= DataD;
   end
 endmodule
+<<<<<<< HEAD
+=======
 
 // Hi
 // Test
+>>>>>>> 71562b877f3d24fa68790be3aad2a8480e452b78
