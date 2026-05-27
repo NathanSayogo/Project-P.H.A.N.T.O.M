@@ -1,6 +1,7 @@
 module EX_before_PRs(
     input logic [31:0] PC, DataA, DataB, inst,
-    input logic BrUn, Asel, Bsel, ALUSel,
+    input logic BrUn, Asel, Bsel, 
+    input logic [3:0] ALUSel,
     output logic[31:0] result, DataB_out,
     output logic BrEq, BrLT
 );
