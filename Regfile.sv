@@ -12,3 +12,9 @@ module Regfile(
       registers[AddrD] <= DataD;
   end
 endmodule
+<<<<<<< HEAD
+=======
+
+// Hi
+// Test
+>>>>>>> 71562b877f3d24fa68790be3aad2a8480e452b78
